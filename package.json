@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Exequiel Wiedermann <ewiedermann@init-dev.com.ar>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  }
 }
