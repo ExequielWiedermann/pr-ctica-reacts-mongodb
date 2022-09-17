@@ -9,6 +9,14 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
     },
+    devServer: {
+        stats: {
+          modules: false,
+          cached: false,
+          colors: true,
+          chunk: false
+        },
+    },
     mode: 'development',
     resolve:{
         extensions:['.js','jsx'],
@@ -17,10 +25,13 @@ module.exports = {
         rules:[
             {
                 test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
                 use:{
                     loader:'babel-loader'
-                }
+                },
+                loaders: [
+                    require.resolve('react-hot-loader'),
+                    require.resolve('babel-loader')
+                 ]
             },
             {
                 test:/\.html$/,

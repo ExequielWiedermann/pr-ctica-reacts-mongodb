@@ -4,7 +4,8 @@
   "description": "react práctica",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
   },
   "author": "Exequiel Wiedermann <ewiedermann@init-dev.com.ar>",
   "license": "ISC",
