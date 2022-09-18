@@ -9,11 +9,14 @@ import '../styles/global.scss';
 const App = () => {
     return (
         <BrowserRouter>
-            <Layout>
-                //Sino recibe valores, es mejor este
-                <Login />
-                <RecoveryPassword />
-            </Layout>
+            <Switch>
+                <Layout>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/login" component={Login} />
+                    <Route exact path="recovery-password" component={RecoveryPassword} />
+                    <Route component={NotFound} />
+                </Layout>
+            </Switch>
         </BrowserRouter>
     );
 }
