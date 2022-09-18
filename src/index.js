@@ -1,11 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Button = () =>{
-    //Para trabajar con stateful y stateless
-    const [name, setName] = useState('Hola Mundo');
-    return(
-        <div>
-            <h1>{name}</h1>
-        </div>
-    );
-}
+const Button = ( { text } ) => <ButtonRed text={text}/>;
+
+//Componente dos
+//const Button = () => <ButtonRed/>;
