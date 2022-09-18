@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/global.scss';
-import {} from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import Login from '../containers/Login';
 import RecoveryPassword from '../containers/RecoveryPassword';
