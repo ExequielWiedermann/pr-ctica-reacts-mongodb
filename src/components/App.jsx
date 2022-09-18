@@ -3,7 +3,10 @@ import '../styles/global.scss';
 
 const App = () => {
     return (
-        <h1>Prueba con la frase boluda "Hola MUNDO"</h1>
+        <Layout>
+            //Sino recibe valores, es mejor este
+            <Login />
+        </Layout>
     );
 }
 
