@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Button = ( { text } ) => <ButtonRed text={text}/>;
-
-//Componente dos
-//const Button = () => <ButtonRed/>;
+//uso de clases para componentes
+class App extends Component{
+    render(){
+        return(
+            <div>
+                <h1></h1>
+            </div>
+        );
+    }
+}
