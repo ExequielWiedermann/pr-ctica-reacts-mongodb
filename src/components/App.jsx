@@ -6,6 +6,7 @@ const App = () => {
         <Layout>
             //Sino recibe valores, es mejor este
             <Login />
+            <RecoveryPassword />
         </Layout>
     );
 }
