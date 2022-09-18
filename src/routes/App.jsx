@@ -8,11 +8,13 @@ import '../styles/global.scss';
 
 const App = () => {
     return (
-        <Layout>
-            //Sino recibe valores, es mejor este
-            <Login />
-            <RecoveryPassword />
-        </Layout>
+        <BrowserRouter>
+            <Layout>
+                //Sino recibe valores, es mejor este
+                <Login />
+                <RecoveryPassword />
+            </Layout>
+        </BrowserRouter>
     );
 }
 
