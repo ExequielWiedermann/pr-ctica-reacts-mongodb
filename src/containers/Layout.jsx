@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Layout = () => {
+//Encapsulamiento con children
+const Layout = ({children}) => {
     return (
         <div className='Layout'>
             {children}
