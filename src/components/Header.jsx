@@ -40,7 +40,7 @@ const Header = () => {
 			</div>
 			<div className="navbar-right">
 				<ul>
-					<li className="navbar-email">platzi@example.com</li>
+					<li className="navbar-email">exequielwiedermann@gmail.com</li>
 					<li className="navbar-shopping-cart">
 						<img src={shoppingCart} alt="shopping cart" />
 						<div>2</div>
