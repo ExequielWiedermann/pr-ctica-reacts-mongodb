@@ -3,9 +3,9 @@ import '../styles/ProductItem.scss';
 
 const ProductItem = () => {
 	//State va a trabajar con un arreglo
-	const [cart, setCart] = useState('');
+	const [cart, setCart] = useState([]);
 	const handleClick = () =>{
-		setCart('Hola Mundo');
+		setCart([]);
 	}
 
 	return (
@@ -19,7 +19,6 @@ const ProductItem = () => {
 				<figure onClick={handleClick}>
 					<img src={addToCart} alt="" />
 				</figure>
-				{cart}
 			</div>
 		</div>
 	);
