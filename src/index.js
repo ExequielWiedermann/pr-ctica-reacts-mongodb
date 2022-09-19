@@ -1,10 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './routes/App';
 
-function ComponentWrapper(WrapperComponent){
-    class Wrapper extends Component{
-        render(){
-            return <WrapperComponent {...this.props} />
-        }
-    }
-    return Wrapper;
-}
+ReactDOM.render(<App />, document.getElementById('app'));

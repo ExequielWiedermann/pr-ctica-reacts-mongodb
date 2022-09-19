@@ -19,5 +19,3 @@ const ProductInfo = () => {
 }
 
 export default ProductInfo;
-
-Menu.jsx

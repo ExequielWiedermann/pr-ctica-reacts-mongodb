@@ -1,7 +1,6 @@
 {
-    "presets": [
-        //Javascript moderno
-        "@babel/present-env",
-        "@babel/present-react"
-    ]
+	"presets": [
+		"@babel/preset-env",
+		"@babel/preset-react"
+	]
 }
